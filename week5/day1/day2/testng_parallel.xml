@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps" verbose="5">
+
+  <test  name="Leaftaps Leads Module">
+    <classes>
+      <class name="week5.day1.CreateLead"/>
+     <!--   <class name="week5.day1.EditLead"/>   --> 
+    </classes>   
+  </test> <!-- Test -->
+  
+  
+   <test name="Leaftaps Accounts Module">
+    <classes>
+       <class name="week5.day1.MergeLead"/>
+     <!--  <class name="week5.day1.DeleteLead"/>   -->     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
